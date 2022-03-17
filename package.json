@@ -31,8 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@kwanwooi/web-utils",
+  "name": "@kwanwooi25/web-utils",
   "author": "steven.jeong<kwanwoo.jeong@gmail.com>",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@kwanwooi25"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:kwanwooi25/web-utils.git",
+    "directory": "@kwanwooi25/web-utils"
+  },
   "module": "dist/web-utils.esm.js",
   "size-limit": [
     {
